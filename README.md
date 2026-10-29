@@ -21,6 +21,7 @@ Site simples sobre a obra **Abaporu** (1928), de Tarsila do Amaral.
 ## CSS
 
 ```css
+/* Elementos e Seletores */
 body
 header
 nav
@@ -32,4 +33,20 @@ div
 img
 footer
 :hover
+
+/* Principais Propriedades de Estilização */
+background-color
+color
+font-family
+font-size
+margin
+padding
+border
+border-radius
+box-shadow
+transition
+transform
+letter-spacing
+text-align
+text-decoration
 ```
