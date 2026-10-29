@@ -8,6 +8,7 @@
 }
 
 body {
+    background-color: #FAF7F2;
     color: #1D592C;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -46,6 +47,20 @@ h1 {
     text-align: center;
 }
 
+h1 :hover {
+    box-shadow: #F29966 10px 10px 10px;
+    transition: 0.5s;
+    transform: translateY(-10px);
+    letter-spacing: 8px;
+
+}
+
+.h1-abupuro:hover {
+    color: #8FB4DE;
+    transition: 0.5s;
+    letter-spacing: 8px;
+}
+
 nav {
     font-family: 'Cascadia Code', monospace;
     font-weight: 900;
@@ -53,6 +68,12 @@ nav {
     padding: 0;
     text-align: center;
 }
+
+nav :hover {
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
 
 a {
     background-color: #C65A3A;
@@ -77,6 +98,7 @@ main {
 }
 
 section {
+    background-color: #ffffff;
     border: 1px solid #5E92BF;
     border-radius: 8px;
     font-family: 'Roboto', sans-serif;
@@ -100,6 +122,13 @@ h2 {
     margin: 0 0 14px 0;
     padding: 0;
     text-align: left;
+    transition: 0.5s;
+}
+
+h2:hover {
+    color: #8FB4DE;
+    transition: 0.5s;
+    letter-spacing: 8px;
 }
 
 p {
@@ -113,7 +142,7 @@ p {
 }
 
 div.destaque-imagem {
-   
+
     border-radius: 8px;
     margin: 16px 0;
     padding: 14px;
