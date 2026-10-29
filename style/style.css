@@ -7,6 +7,12 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Narnia';
+    src: url(../font/narnia/Narnia.otf) format(opentype);
+    font-style: normal;
+}
+
 body {
     background-color: #FAF7F2;
     color: #1D592C;
@@ -62,32 +68,36 @@ h1 :hover {
 }
 
 nav {
-    font-family: 'Cascadia Code', monospace;
-    font-weight: 900;
-    margin: 16px 0 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
     padding: 0;
-    text-align: center;
 }
 
-nav :hover {
-    transform: translateY(-10px);
-    transition: 1s;
-}
-
-
-a {
+nav a {
     background-color: #C65A3A;
-    border: 1px solid #1D592C;
-    border-radius: 4px;
+    border: 1.5px solid rgba(255, 217, 0, 0.4);
+    border-radius: 25px;
     color: #FFF4D6;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-    margin: 4px 6px;
-    padding: 8px 14px;
+    font-family: 'Narnia', serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    padding: 10px 22px;
     text-align: center;
     text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #5E92BF;
+    border-color: #FFF4D6;
+    color: #FFFFFF;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 }
 
 main {
@@ -181,12 +191,3 @@ footer p {
 }
 
 
-nav a:hover {
-    background-color: #f00909;
-    color: #ffd900;
-    font-weight: 900;
-    border-radius: 4px;
-    transition: 0.3s;
-    transform: translateY(-4px);
-
-}
