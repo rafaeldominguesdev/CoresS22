@@ -85,6 +85,13 @@ section {
     text-align: left;
 }
 
+section:hover {
+    box-shadow: #F29966 10px 10px 10px;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+
+
 h2 {
     color: #BF5D39;
     font-family: 'Tropinha';
